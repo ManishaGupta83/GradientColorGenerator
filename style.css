@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 body{
     background-image: linear-gradient(to right top, #370537, #264182, #007bba, #00b5cb, #12ebba);
@@ -22,10 +25,22 @@ body{
     color: #fff;
   
 }
-h1{
+
+
+
+h1 {
     font-size: 80px;
- 
+    font-family: 'Poppins', sans-serif; /* Custom font */
+    background: linear-gradient(30deg, #2ffff5 30%, #dd2476 70%);
+    -webkit-background-clip: text;
+    background-clip:none;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
 }
+
+
+
+
 .color-div button{
   border-radius: 10px;
   padding: 15px 40px;
@@ -35,6 +50,7 @@ h1{
   background-color: #4fa10f;
   color: white;
 }
+
 #btn2{
     background-color:#502550;
     color: white;
@@ -43,14 +59,38 @@ h1{
    text-align: center;
 }
 .color{
-    margin-top: 40px;
-    font-size: 20px;
-    background-image: linear-gradient(to right top, #d17dd1, #a7b4d4, #90bdd3, #bdd7da, #91d1c2);;
-   color: #333;
-    padding: 20px 10px;
-    border-radius: 30px;
-    white-space: wrap;
-    
+  margin-top: 40px;
+  font-family: crack typeface;
+  font-size: 20px;
+  background-image: linear-gradient(to right top, #d17dd1, #a7b4d4, #90bdd3, #bdd7da, #91d1c2);
+  color:rgb(70, 63, 27);/* Change this for better visibility */
+  padding: 20px 10px;
+  border-radius: 30px;
+  white-space: wrap;
+  text-align: center;
+  font-weight: bold;
+
+
      
 }
 
+.color-div button {
+  border-radius: 10px;
+  padding: 15px 40px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.color-div button:hover {
+  margin: 0px 10px;
+  transform: scale(1.1);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+#btn1:hover{
+    background-color: #7ca10f;
+    color: white;
+  }
